@@ -5,6 +5,9 @@ body
     max-width: 100vw
     margin: auto
 
+    a, a:link, a:visited, a:hover, a:active
+        color: black !important
+
 
 .container
     max-width: 700px
@@ -37,11 +40,10 @@ body
         &:hover
             text-decoration: underline
 
-    a:-webkit-any-link
+    a, a:-webkit-any-link
         /* font-family: 'Vollkorn', serif */
         text-align: center
         text-decoration: none
-        color: black
 
 
 ul.post-list
@@ -49,8 +51,6 @@ ul.post-list
     margin: auto
     padding-left: 0
 
-    a
-        color: black
 
     li.post-item
         margin-top: 15px
